@@ -61,4 +61,4 @@ test("renders a <p> with the preview text", () => {
   const p = screen.queryByText(/Setting up the building blocks of your site/);
   expect(p).toBeInTheDocument();
   expect(p.tagName).toBe("P");
-});
+})
